@@ -1,0 +1,64 @@
+﻿Commit 2: Adding ByteWheel project
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .mvn/wrapper/maven-wrapper.jar
+#	new file:   .mvn/wrapper/maven-wrapper.properties
+#	new file:   hs_err_pid2224.log
+#	new file:   mvnw
+#	new file:   mvnw.cmd
+#	new file:   pom.xml
+#	new file:   replay_pid2224.log
+#	new file:   src/main/java/org/bytemark/bytewheel/BytewheelApplication.java
+#	new file:   src/main/java/org/bytemark/bytewheel/ServletInitializer.java
+#	new file:   src/main/java/org/bytemark/bytewheel/StartupInjectRepositoryData.java
+#	new file:   src/main/java/org/bytemark/bytewheel/aspects/services/GenericAdvice.java
+#	new file:   src/main/java/org/bytemark/bytewheel/aspects/services/PointcutDescriptor.java
+#	new file:   src/main/java/org/bytemark/bytewheel/constants/BookingStatus.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/BookingDaoImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/CarCategoryDaoImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/CarDaoImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/CustomerDaoImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/IdGeneratorDao.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/interfaces/BookingDao.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/interfaces/CarCategoryDao.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/interfaces/CarDao.java
+#	new file:   src/main/java/org/bytemark/bytewheel/dao/interfaces/CustomerDao.java
+#	new file:   src/main/java/org/bytemark/bytewheel/exception/BusinessException.java
+#	new file:   src/main/java/org/bytemark/bytewheel/exception/ExceptionMappers.java
+#	new file:   src/main/java/org/bytemark/bytewheel/model/Booking.java
+#	new file:   src/main/java/org/bytemark/bytewheel/model/Car.java
+#	new file:   src/main/java/org/bytemark/bytewheel/model/CarCategory.java
+#	new file:   src/main/java/org/bytemark/bytewheel/model/Customer.java
+#	new file:   src/main/java/org/bytemark/bytewheel/repository/BookingRepository.java
+#	new file:   src/main/java/org/bytemark/bytewheel/repository/CarCategoryRepository.java
+#	new file:   src/main/java/org/bytemark/bytewheel/repository/CarRepository.java
+#	new file:   src/main/java/org/bytemark/bytewheel/repository/CustomerRepository.java
+#	new file:   src/main/java/org/bytemark/bytewheel/rest/BookingController.java
+#	new file:   src/main/java/org/bytemark/bytewheel/rest/CarCategoryController.java
+#	new file:   src/main/java/org/bytemark/bytewheel/rest/CarController.java
+#	new file:   src/main/java/org/bytemark/bytewheel/rest/CustomerConstoller.java
+#	new file:   src/main/java/org/bytemark/bytewheel/rest/security/SecurityConfig.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/BookingServiceImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/CarCategoryServiceImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/CarServiceImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/CustomerServiceImpl.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/interfaces/BookingService.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/interfaces/CarCategoryService.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/interfaces/CarService.java
+#	new file:   src/main/java/org/bytemark/bytewheel/service/interfaces/CustomerService.java
+#	new file:   src/main/java/org/bytemark/bytewheel/util/LoggerUtil.java
+#	new file:   src/main/java/org/bytemark/bytewheel/util/MailSender.java
+#	new file:   src/main/resources/application.properties
+#	new file:   src/main/resources/log4j2.xml
+#	new file:   src/test/java/org/bytemark/bytewheel/BytewheelApplicationTests.java
+#	new file:   src/test/java/org/bytemark/bytewheel/test/bookingservice/rest/BookingTest.java
+#	new file:   src/test/java/org/bytemark/bytewheel/test/util/JsonConverter.java
+#	new file:   src/test/java/org/bytemark/bytewheel/test/util/UriUtil.java
+#
+
