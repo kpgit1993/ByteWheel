@@ -1,0 +1,12 @@
+﻿Update README.txt file 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   4a1tcoss.dwc.txt
+#	new file:   README.txt
+#	new file:   jsq1dltb.cmt.txt
+#	modified:   src/main/java/org/bytemark/bytewheel/BytewheelApplication.java
+#	modified:   src/main/resources/application.properties
+#
+
